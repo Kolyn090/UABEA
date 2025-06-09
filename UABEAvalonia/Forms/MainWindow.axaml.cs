@@ -32,7 +32,7 @@ namespace UABEAvalonia
         {
             // has to happen BEFORE initcomponent
             Workspace = new BundleWorkspace();
-            Initialized += MainWindow_Initialized;
+            // Initialized += MainWindow_Initialized;
 
             InitializeComponent();
 #if DEBUG
